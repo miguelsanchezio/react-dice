@@ -1,0 +1,23 @@
+.RollDice {
+    margin: 3rem 0;
+}
+
+.RollDice-dice {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.RollDice-button {
+    background: #4ecd9f;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.2rem 3.5rem;
+    font-size: 1.1rem;
+}
+
+.RollDice-button:hover,
+.RollDice-button:disabled {
+    background: #42b189;
+}
